@@ -15,7 +15,7 @@ st.set_page_config(page_title="Diabetic Retinopathy Classification", page_icon="
 st.title("Diabetic Retinopathy Classification")
 st.sidebar.title("Menu")
 
-menu = ["Home", "Upload Image","view dataset", "About"]
+menu = ["Home", "Upload Image", "About"]
 choice = st.sidebar.selectbox("Select an option", menu)
 
 
@@ -95,19 +95,7 @@ if choice == "Upload Image":
         main()
             
         
-        
-      
-if choice == "view dataset":
-
-    st.write("---Catogories of DR---")
-    st.write("0 --> No DR stage")
-    st.write("1 --> Mild stage")
-    st.write("2 --> Moderate DR stage")
-    st.write("3 --> Severe DR stage")
-    st.write("4 --> Proliferative (greatly effected)")
-
-    data = pd.read_csv("train.csv")
-    st.write(data)
+       
 
 
 if choice == "About":
