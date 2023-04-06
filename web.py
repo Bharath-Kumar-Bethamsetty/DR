@@ -56,6 +56,21 @@ Overall, these projects aim to improve early detection and diagnosis of diabetic
 
 Currently, detecting DR is a time-consuming and manual process that requires a trained clinician to examine and evaluate digital color fundus photographs of the retina. By the time human readers submit their reviews, often a day or two later, the delayed results lead to lost follow up, miscommunication, and delayed treatment.'''
     st.write(x)
+
+    data = '''
+All of the images are already saved into their respective folders according to the severity/stage of diabetic retinopathy using the train.csv file provided. You will find five directories with the respective images:
+
+0 - No_DR
+
+1 - Mild
+
+2 - Moderate
+
+3 - Severe
+
+4 - Proliferate_DR'''
+
+    st.write(data)
 	
 
 
