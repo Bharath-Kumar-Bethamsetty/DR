@@ -126,13 +126,13 @@ if choice == 'Contact us':
 if choice == "User Guide":
 	st.header("WELCOME TO USER-GUIDE")
 	st.subheader("Goto upload image session and just drap or drop your fundus image into it and wait for the prediction")
-	st.subheader("*------------------------------*")
+	st.subheader("*------------------------------------------------------------*")
 	st.subheader("--> if you get the result as below")
 	st.success("congratulations you are safe!! 😁👍")
 	st.subheader("It means that your are safe and you are all perfect with your health")
-	st.subheader("*------------------------------*")
+	st.subheader("*------------------------------------------------------------*")
 	st.subheader("--> Or if you get the result as below")
 	st.warning("⚠️ Proper medication is required!!!")
 	st.subheader("It means that you need to take care of your health and activities, because the model predicted that, in future you might suffer from diabetic retinopathy. And suggested that, its better to consult a doctor/specialist.")
-	st.subheader("*------------------------------*")
+	st.subheader("*------------------------------------------------------------*")
     
