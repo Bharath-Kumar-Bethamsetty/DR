@@ -56,7 +56,7 @@ Overall, these projects aim to improve early detection and diagnosis of diabetic
 
 Currently, detecting DR is a time-consuming and manual process that requires a trained clinician to examine and evaluate digital color fundus photographs of the retina. By the time human readers submit their reviews, often a day or two later, the delayed results lead to lost follow up, miscommunication, and delayed treatment.'''
     st.write(x)
-
+    st.image("retina2.jpg")
     data = '''
 All of the images are already saved into their respective folders according to the severity/stage of diabetic retinopathy using the train.csv file provided. You will find five directories with the respective images:
 
@@ -79,6 +79,17 @@ Elevated blood sugar, blood pressure and cholesterol levels and increased body w
 '''
 
     st.write(r)
+	
+	
+	
+    st.subheader("Understanding the Stages of Diabetic Retinopathy")
+    r = '''
+Elevated blood sugar, blood pressure and cholesterol levels and increased body weight are associated with uncontrolled diabetes and can damage the delicate blood vessels of the retina, causing a disease called diabetic retinopathy. In the early stages of diabetic retinopathy, vision loss may be prevented or limited; but as the condition advances, it becomes more difficult to prevent vision loss.
+'''
+
+    st.write(r)
+    st.image("retina3.jpg")
+
 
 
 	
