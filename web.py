@@ -71,6 +71,16 @@ All of the images are already saved into their respective folders according to t
 4 - Proliferate_DR'''
 
     st.write(data)
+
+
+    st.subheader("Understanding the Stages of Diabetic Retinopathy")
+    r = '''
+Elevated blood sugar, blood pressure and cholesterol levels and increased body weight are associated with uncontrolled diabetes and can damage the delicate blood vessels of the retina, causing a disease called diabetic retinopathy. In the early stages of diabetic retinopathy, vision loss may be prevented or limited; but as the condition advances, it becomes more difficult to prevent vision loss.
+'''
+
+    st.write(r)
+
+
 	
 
 
