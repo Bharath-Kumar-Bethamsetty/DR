@@ -159,7 +159,6 @@ if choice == "Upload Image and get Predicted":
         
        
 
-
 if choice == "About":
     st.subheader("About")
     
@@ -197,7 +196,7 @@ if choice == "User Guide":
 	st.warning("⚠️ Proper medication is required!!!")
 	st.subheader("It means that you need to take care of your health and activities, because the model predicted that, in future you might suffer from diabetic retinopathy. And suggested that, its better to consult a doctor/specialist.")
 	st.subheader("*------------------------------------------------------------*")
-  if choice == "Map":
+if choice == "Map":
 	
 	df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4], columns=['lat', 'lon'])
 
