@@ -15,7 +15,7 @@ st.set_page_config(page_title="Diabetic Retinopathy Classification", page_icon="
 st.title("Diabetic Retinopathy Classification")
 st.sidebar.title("Menu")
 
-menu = ["Home", "Upload Image", "About", 'Contact us' ]
+menu = ["Home", "User Guide", "Upload Image and Predict", "About", 'Contact us' ]
 choice = st.sidebar.selectbox("Select an option", menu)
 
 
@@ -39,7 +39,7 @@ if choice == "Home":
     
     
    
-if choice == "Upload Image":
+if choice == "Upload Image and Predict":
     model = load_model('cnn.h5')
     class_labels = ['DR', 'NO-DR']
 
@@ -120,4 +120,19 @@ if choice == 'Contact us':
     st. success("bk337810@gmail.com") 
     st. warning ("P.G.Jaswanth Reddy") 
     st. success("jaswanthre561mb@gmail.com") 
+    
+    
+    
+if choice == "User Guide":
+	st.header("WELCOME TO USER-GUIDE")
+	st.subheader("Goto upload image session and just drap or drop your fundus image into it and wait for the prediction")
+	st.subheader("*---------------*")
+	st.subheader("--> if you get the result as below")
+	st.subheader("congratulations you are safe!! 😁👍")
+	st.subheader("It means that your are safe and you are all perfect with your health")
+	st.subheader("*---------------*")
+	st.subheader("--> Or if you get the result as below")
+	st.subheader("⚠️ Proper medication is required!!!")
+	st.subheader("It means that you need to take care of your health and activities, because the model predicted that, in future you might suffer from diabetic retinopathy. And suggested that, its better to consult a doctor/specialist.")
+	st.subheader("*---------------*")
     
