@@ -35,8 +35,22 @@ st.markdown(
 
 
 if choice == "Home":
-    st.write("Welcome to the Diabetic Retinopathy Classification app.")
-    
+    st.subheader("Welcome to the Diabetic Retinopathy Classification app.")
+    x = '''Diabetic retinopathy is a diabetes complication that affects the eyes. It is caused by damage to the blood vessels in the retina, which can lead to vision impairment or even blindness if left untreated.
+
+To tackle this problem, various research and development projects have been undertaken to detect and diagnose diabetic retinopathy at an early stage. These projects utilize a range of techniques, including computer vision and machine learning, to analyze retinal images and identify signs of the disease.
+
+One approach involves developing deep learning models to analyze retinal images and detect signs of diabetic retinopathy. These models are trained on large datasets of retinal images labeled with diagnostic information, allowing them to learn to identify early signs of the disease with high accuracy.
+
+Another approach involves using telemedicine to screen patients for diabetic retinopathy. This involves capturing retinal images using specialized cameras and transmitting them to ophthalmologists or other medical professionals for analysis. This approach can improve access to screening and diagnosis for patients who may not have access to specialized medical facilities.
+
+Overall, these projects aim to improve early detection and diagnosis of diabetic retinopathy, which can lead to earlier treatment and better outcomes for patients. '''
+	
+    st.write(x)
+	
+	
+	
+	
     
    
 if choice == "Upload Image and Predict":
