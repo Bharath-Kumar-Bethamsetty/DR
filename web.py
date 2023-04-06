@@ -15,7 +15,7 @@ st.set_page_config(page_title="Diabetic Retinopathy Classification", page_icon="
 st.title("Diabetic Retinopathy Classification")
 st.sidebar.title("Menu")
 
-menu = ["Home", "Upload Image", "About"]
+menu = ["Home", "Upload Image", "About", 'Contact us' ]
 choice = st.sidebar.selectbox("Select an option", menu)
 
 
@@ -112,3 +112,12 @@ The ultimate goal of a diabetic retinopathy classification project is to improve
     """
     
     st.info(s)
+if choice == 'Contact us':
+    st. header("Under guidance of Mr. K. E. Naresh Kumar  M.Tech., (Ph.D.) ") 
+    st. success (" RGMCET") 
+    st. subheader("Contact Details") 
+    st. warning("B.Bharath Kumar") 
+    st. success("bk337810@gmail.com") 
+    st. warning ("P.G.Jaswanth Reddy") 
+    st. success("jaswanthre561mb@gmail.com") 
+    
