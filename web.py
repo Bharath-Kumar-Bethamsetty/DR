@@ -15,7 +15,7 @@ st.set_page_config(page_title="Diabetic Retinopathy Classification", page_icon="
 st.title("Diabetic Retinopathy Classification")
 st.sidebar.title("Menu")
 
-menu = ["Home", "User Guide", "Upload Image and Predict", "About", 'Contact us' ]
+menu = ["Home", "User Guide", "Upload Image and get Predicted", "About", 'Contact us' ]
 choice = st.sidebar.selectbox("Select an option", menu)
 
 
@@ -106,7 +106,7 @@ Elevated blood sugar, blood pressure and cholesterol levels and increased body w
 	
     
    
-if choice == "Upload Image and Predict":
+if choice == "Upload Image and get Predicted":
     model = load_model('cnn.h5')
     class_labels = ['DR', 'NO-DR']
 
