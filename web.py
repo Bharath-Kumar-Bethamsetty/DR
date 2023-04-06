@@ -89,7 +89,7 @@ Elevated blood sugar, blood pressure and cholesterol levels and increased body w
 
     st.write(r)
     st.image("retina3.jpg")
-    st.write("*---------*-----------*----------")
+    st.write("---------------------------------------------")
 
     st.subheader("types of DR")
     st.image("types.jpg")
