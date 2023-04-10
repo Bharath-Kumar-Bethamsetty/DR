@@ -79,9 +79,7 @@ Elevated blood sugar, blood pressure and cholesterol levels and increased body w
 '''
 
     st.write(r)
-	
-	
-	
+		
     
     st.image("retina3.jpg")
     st.write("---------------------------------------------")
@@ -90,16 +88,7 @@ Elevated blood sugar, blood pressure and cholesterol levels and increased body w
     st.image("types.jpg")
     st.subheader("some sample images below")
     st.image("samples.jpg")
-
-
-	
-
-
-	
-	
-	
-	
-    
+ 
    
 if choice == "Upload Image and get Predicted":
     model = load_model('cnn.h5')
@@ -120,13 +109,8 @@ if choice == "Upload Image and get Predicted":
             image = Image.open(uploaded_file)
             st.subheader("Please wait uploaded file is analysing")
             with st.spinner('processing please wait...'):
-                time.sleep(5)
+                time.sleep(3)
                 
-                
-              
- 
-
-
         
             st.subheader("getting results....")
 
@@ -134,15 +118,8 @@ if choice == "Upload Image and get Predicted":
 
             for i in range(0,101):
                 progress.progress(i)
-                sleep(0.05)
-            
-
-
-
-            
-
-            
-                
+                sleep(0.1)
+               
             st.image(image, caption='Uploaded Image',use_column_width=True)
             label = predict(uploaded_file)
             if label == 'DR':
